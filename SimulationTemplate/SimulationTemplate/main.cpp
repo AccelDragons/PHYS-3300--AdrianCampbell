@@ -124,7 +124,7 @@ int main(int argc, char* args[])
 	b2Body* plat2Body = gameWorld.CreateBody(&plat2Def);
 
 	b2PolygonShape plat2Box;
-	plat2Box.SetAsBox(384.0f * 0.5 / ppm, 112.0f * 0.5 / ppm);
+	plat2Box.SetAsBox(112.0f * 0.5 / ppm, 16.0f * 0.5 / ppm);
 
 	b2FixtureDef plat2Fixtures;
 	plat2Fixtures.shape = &plat2Box;
